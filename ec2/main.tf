@@ -26,7 +26,7 @@ resource "aws_security_group" "webserver_access" {
 
 
 }
-
+#alok
 resource "aws_instance" "ourfirst" {
   ami           = "ami-04f5097681773b989"
   availability_zone = "ap-southeast-2b"
