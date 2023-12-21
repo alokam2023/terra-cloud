@@ -1,7 +1,7 @@
 terraform {
   backend s3{
-    bucket = "finlandbucket"
+    bucket = "alokbaba"
     key = "remote.tfstate"
-    region = "ap-south-1"
+    region = "ap-southeast-2"
   }
 }
