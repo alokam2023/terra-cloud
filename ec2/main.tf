@@ -36,7 +36,7 @@ resource "aws_instance" "ourfirst" {
   user_data = filebase64("install_httpd.sh")
   tags = {
     Name  = "ec2-test"
-    Location = "Mumbai"
+    Location = "Sydney"
   }
 
 }
